@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.videobasic.MainActivity"
+    >
+
+    <item
+        android:id="@+id/duration"
+        android:title="Set Max Duration"
+        />
+    <item
+        android:id="@+id/camera"
+        android:title="Camera"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/front"
+                android:title="front"/>
+            <item
+                android:id="@+id/back"
+                android:title="back"
+                />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/quality"
+        android:title="Quality"
+        />
+
+    <item
+        android:id="@+id/listItem"
+        android:title="Files"
+        />
+
+</menu>
